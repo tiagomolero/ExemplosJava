@@ -1,8 +1,6 @@
-package classes;
+package interfaces;
 
-import interfaces.ICaneta;
-
-public class CanetaEsferografica implements ICaneta {
+public class Lapis implements ICaneta {
 
     @Override
     public void escrever(String texto) {
@@ -11,6 +9,6 @@ public class CanetaEsferografica implements ICaneta {
 
     @Override
     public String getCor() {
-        return "Azul";
+        return "Preto";
     }
 }

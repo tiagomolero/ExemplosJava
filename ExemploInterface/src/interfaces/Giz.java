@@ -1,6 +1,4 @@
-package classes;
-
-import interfaces.ICaneta;
+package interfaces;
 
 public class Giz implements ICaneta {
 

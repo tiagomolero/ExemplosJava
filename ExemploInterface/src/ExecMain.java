@@ -1,6 +1,6 @@
-import classes.CanetaEsferografica;
-import classes.Giz;
-import classes.Lapis;
+import interfaces.CanetaEsferografica;
+import interfaces.Giz;
+import interfaces.Lapis;
 import interfaces.ICaneta;
 
 public class ExecMain {
