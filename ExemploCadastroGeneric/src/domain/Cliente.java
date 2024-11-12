@@ -97,6 +97,11 @@ public class Cliente implements Persistente{
         return "Cliente{" +
                 "nome='" + nome + '\'' +
                 ", cpf=" + cpf +
+                ", tel=" + tel +
+                ", end='" + end + '\'' +
+                ", numero=" + numero +
+                ", cidade='" + cidade + '\'' +
+                ", estado='" + estado + '\'' +
                 '}';
     }
 

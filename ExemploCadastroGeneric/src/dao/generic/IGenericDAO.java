@@ -1,5 +1,6 @@
 package dao.generic;
 
+import domain.Cliente;
 import domain.Persistente;
 
 import java.util.Collection;
@@ -8,9 +9,9 @@ public interface  IGenericDAO <T extends Persistente>{
 
     public Boolean cadastrar(T entity);
 
-    public void excluir(Long valor);
+    public Boolean excluir(Long valor);
 
-    public void alterar(T entity);
+    public Boolean alterar(T entity);
 
     public T consultar(Long valor);
 

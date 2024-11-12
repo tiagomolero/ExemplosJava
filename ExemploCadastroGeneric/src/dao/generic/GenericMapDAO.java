@@ -31,21 +31,25 @@ public abstract class GenericMapDAO <T extends Persistente> implements IGenericD
     }
 
     @Override
-    public void excluir(Long valor) {
+    public Boolean excluir(Long valor) {
         Map<Long, T> mapaInterno = this.map.get(getTipoClasse());
         T objetoCadastrado = mapaInterno.get(valor);
         if (objetoCadastrado != null){
-            this.map.remove(valor, objetoCadastrado);
+            mapaInterno.remove(valor, objetoCadastrado);
+            return true;
         }
+        return null;
     }
 
     @Override
-    public void alterar(T entity) {
+    public Boolean alterar(T entity) {
         Map<Long, T> mapaInterno = this.map.get(getTipoClasse());
         T objetoCadastrado = mapaInterno.get(entity.getKey());
         if(objetoCadastrado != null){
             atualizarDados(entity, objetoCadastrado);
+            return true;
         }
+        return false;
     }
 
     @Override
