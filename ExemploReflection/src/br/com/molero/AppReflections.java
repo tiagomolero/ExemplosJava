@@ -1,5 +1,7 @@
 package br.com.molero;
 
+import br.com.molero.anotation.Identificador;
+
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -70,6 +72,21 @@ public class AppReflections {
             throw new RuntimeException(e);
         }
 
+        getAnotation(clazz);
+
+    }
+
+    public static void getAnotation(Class c){
+        System.out.println();
+        System.out.println("*** ANOTAÇÕES ***");
+        Field[] fields = c.getDeclaredFields();
+        for (Field field : fields){
+            if (field.isAnnotationPresent(Identificador.class)){
+                System.out.println(field + " -> Possui Anotation Identificador");
+            }else {
+                System.out.println(field + " -> Não possui Anotation Identificador");
+            }
+        }
     }
 
 }
