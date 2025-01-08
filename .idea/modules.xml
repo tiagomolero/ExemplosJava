@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DesignPattern/DesignPattern.iml" filepath="$PROJECT_DIR$/DesignPattern/DesignPattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploCadastroGeneric/ExemploCadastroGeneric.iml" filepath="$PROJECT_DIR$/ExemploCadastroGeneric/ExemploCadastroGeneric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploClasses/ExemploClasses.iml" filepath="$PROJECT_DIR$/ExemploClasses/ExemploClasses.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploException/ExemploException.iml" filepath="$PROJECT_DIR$/ExemploException/ExemploException.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploGenerics/ExemploGenerics.iml" filepath="$PROJECT_DIR$/ExemploGenerics/ExemploGenerics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploMod14CadastroCliente/ExemploMod14CadastroCliente.iml" filepath="$PROJECT_DIR$/ExemploMod14CadastroCliente/ExemploMod14CadastroCliente.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemploReflection/ExemploReflection.iml" filepath="$PROJECT_DIR$/ExemploReflection/ExemploReflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExemplosAnotacoes/ExemplosAnotacoes.iml" filepath="$PROJECT_DIR$/ExemplosAnotacoes/ExemplosAnotacoes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ExemplosJava.iml" filepath="$PROJECT_DIR$/.idea/ExemplosJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InjecaoDeDependencia/InjecaoDeDependencia.iml" filepath="$PROJECT_DIR$/InjecaoDeDependencia/InjecaoDeDependencia.iml" />
+    </modules>
+  </component>
+</project>
